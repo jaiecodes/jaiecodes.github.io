@@ -71,7 +71,6 @@ header .navbar.animate {
 /* hero */
 
 #hero {
-    min-height: 100vh;
     line-height: 2rem;
     max-width: 100%;
 }
@@ -79,12 +78,6 @@ header .navbar.animate {
     animation: fade-left 1s ease-out;
 }
 
-#hero .hero-bottom-svg {
-    opacity: 0.5;
-    position: absolute;
-    bottom: -50px;
-    left: -150px;
-}
 
 #hero .subtitle {
     font-size: clamp(14px,5vw,16px);
